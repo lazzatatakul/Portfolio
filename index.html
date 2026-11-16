@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portfolio 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Great+Vibes&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="blobs"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div></div>
+
+<header>
+  <nav>
+    <a class="logo" href="#home">Lazzat Atakul</a>
+    <button class="menu" id="menu" aria-label="Menu">☰</button>
+    <div class="links" id="links">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#works">Works</a>
+      <a class="btn" href="#contact">Contact</a>
+      <button class="theme" id="theme" aria-label="Toggle theme">◐</button>
+    </div>
+  </nav>
+</header>
+
+<section id="home">
+  <div class="year">2026</div>
+  <h1 class="hero-title">welcome to my <em>portfolio</em></h1>
+  <p class="role">( Software Engineer )</p>
+  <a class="cta" href="#works">View my work</a>
+</section>
+
+<section id="about">
+  <h2 class="reveal">about <em>me</em></h2>
+  <div class="about reveal">
+    <div class="photo"><img src="Me.jpg" alt="Me"> --><span>A</span></div>
+    <div>
+      <div class="tabs">
+        <button class="tab on" data-p="p1">About me</button>
+        <button class="tab" data-p="p2">Skills</button>
+        <button class="tab" data-p="p3">Certifications</button>
+      </div>
+      <div class="panel on" id="p1">
+        <p>About Me
+
+I’m an IT professional specializing in System Administration, IT infrastructure, and software development. I have experience with Linux, Windows, networking, Docker, and Python automation, alongside a strong interest in cybersecurity and AI. I’m passionate about building, maintaining, and optimizing reliable IT systems while continuously expanding my technical skills.</p>
+      </div>
+      <div class="panel" id="p2">
+        <div class="skills">
+          <h4>AI &amp; Machine Learning</h4>
+          <div class="chips"><span class="chip">Python</span><span class="chip">Machine Learning</span><span class="chip">scikit-learn</span><span class="chip">Logistic Regression</span><span class="chip">NLP</span><span class="chip">Text Classification</span><span class="chip">Neural Networks</span><span class="chip">LLMs</span></div>
+          <h4>Data</h4>
+          <div class="chips"><span class="chip">Web Scraping</span><span class="chip">Selenium</span><span class="chip">Dataset Creation</span><span class="chip">Data Analysis</span><span class="chip">Data Visualization</span></div>
+          <h4>Web &amp; Product Development</h4>
+          <div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Responsive UI</span><span class="chip">Multilingual Websites</span><span class="chip">Leaflet GIS Maps</span><span class="chip">Telegram Bots</span><span class="chip">Vercel</span></div>
+          <h4>Networking &amp; Security</h4>
+          <div class="chips"><span class="chip">CCNA</span><span class="chip">VLAN &amp; STP</span><span class="chip">IPv4 / IPv6</span><span class="chip">Wireless Networks</span><span class="chip">Switch Security</span><span class="chip">Cybersecurity</span><span class="chip">PC Hardware</span></div>
+          <h4>Languages &amp; Communication</h4>
+          <div class="chips"><span class="chip">Kazakh</span><span class="chip">Russian</span><span class="chip">English</span><span class="chip">Technical Writing</span></div>
+        </div>
+      </div>
+      <div class="panel" id="p3">
+        <button type="button" class="cert"><img src="certificates/cs50.jpg" alt="" loading="lazy"><div class="txt"><b>CS50’s Introduction to Artificial Intelligence with Python</b><span>Harvard University (CS50) · 2026</span></div><i class="view">View</i></button>
+        <button type="button" class="cert"><img src="certificates/ai-for-everyone.jpg" alt="" loading="lazy"><div class="txt"><b>AI for Everyone</b><span>DeepLearning.AI on Coursera · Apr 2026</span></div><i class="view">View</i></button>
+        <button type="button" class="cert"><img src="certificates/ccna-srwe.jpg" alt="" loading="lazy"><div class="txt"><b>CCNA: Switching, Routing, and Wireless Essentials</b><span>Cisco Networking Academy · Dec 2025</span></div><i class="view">View</i></button>
+        <button type="button" class="cert"><img src="certificates/cybersecurity-essentials.jpg" alt="" loading="lazy"><div class="txt"><b>Cybersecurity Essentials</b><span>Cisco Networking Academy, Dulaty University · Apr 2025</span></div><i class="view">View</i></button>
+        <button type="button" class="cert"><img src="certificates/huawei-ai.jpg" alt="" loading="lazy"><div class="txt"><b>Artificial Intelligence Technology and Applications (Kazakh)</b><span>Huawei Talent · Apr 2025</span></div><i class="view">View</i></button>
+        <button type="button" class="cert"><img src="certificates/networking-basics.jpg" alt="" loading="lazy"><div class="txt"><b>Networking Basics</b><span>Cisco Networking Academy, Dulaty University · Dec 2024</span></div><i class="view">View</i></button>
+        <button type="button" class="cert"><img src="certificates/it-essentials.jpg" alt="" loading="lazy"><div class="txt"><b>IT Essentials: PC Hardware and Software</b><span>Cisco Networking Academy · May 2021</span></div><i class="view">View</i></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="reveal">my <em>experience</em></h2>
+  <div class="timeline">
+    <div class="item cur reveal">
+      <span class="badge">Featured</span>
+      <h3>AI &amp; Web Developer</h3><div class="company">E-Jambyl: Aulieata Smart AI Ecosystem</div>
+      <div class="meta">Zhambyl Oblast, Kazakhstan · 2026 · Regional government platform</div>
+      <p>Designed and built a smart regional platform that unites government services, legal knowledge, and an interactive GIS map of Taraz, with AI-powered search, request history, and an admin panel.</p>
+      <div class="chips"><span class="chip">Web Development</span><span class="chip">GIS (Leaflet)</span><span class="chip">AI Search</span><span class="chip">Digital Services</span></div>
+    </div>
+    <div class="item reveal">
+      <span class="badge">Research</span>
+      <h3>Machine Learning Developer</h3><div class="company">Kolesa.kz Fraud Detector</div>
+      <div class="meta">2024 — 2026 · University research project</div>
+      <p>Collected and analyzed car listings with Selenium, engineered scam-keyword and price-anomaly signals, trained a Logistic Regression text classifier, and shipped it as a Telegram bot that returns an instant safety verdict.</p>
+      <div class="chips"><span class="chip">Python</span><span class="chip">Selenium</span><span class="chip">scikit-learn</span><span class="chip">NLP</span><span class="chip">Telegram Bot</span></div>
+    </div>
+    <div class="item reveal">
+      <span class="badge">Web</span>
+      <h3>Web Developer</h3><div class="company">Mansion Restaurant</div>
+      <div class="meta">Website project · Russian / Kazakh / English</div>
+      <p>Built an elegant three-language restaurant website with a cinematic hero section, a digital menu, and a WhatsApp contact button, deployed on Vercel.</p>
+      <div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Multilingual UI</span><span class="chip">Vercel</span></div>
+    </div>
+    <div class="item reveal">
+      <span class="badge">Writing</span>
+      <h3>Technical Writer</h3><div class="company">Bilimger</div>
+      <div class="meta">Published article · Neural networks &amp; LLMs</div>
+      <p>Wrote a technical article on how modern neural networks are built, from gradients to trillion-parameter models, with self-attention visualizations.</p>
+      <div class="chips"><span class="chip">Neural Networks</span><span class="chip">LLMs</span><span class="chip">Attention</span><span class="chip">Technical Writing</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="works">
+  <h2 class="reveal">my <em>works</em></h2>
+  <div class="filters reveal">
+    <button class="filter on" data-f="all">All</button>
+    <button class="filter" data-f="web">Web</button>
+    <button class="filter" data-f="ai">AI / ML</button>
+    <button class="filter" data-f="writing">Writing</button>
+  </div>
+  <div class="grid">
+    <article class="card reveal" data-c="web">
+      <button type="button" class="thumb zoom" data-title="Mansion: Restaurant Website" aria-label="Enlarge image"><img src="works/mansion.jpg" alt="Mansion: Restaurant Website" loading="lazy"></button>
+      <div class="body"><a class="tag" href="https://manisonmenu.vercel.app/" target="_blank" rel="noopener noreferrer">Web ↗</a><h3>Mansion: Restaurant Website</h3><p>Elegant three-language (RU / KZ / EN) website for “Особняк · Mansion”, a restaurant with a masquerade-style atmosphere. Features a cinematic hero section, a digital menu, a WhatsApp contact button, and a dark and gold design.</p><div class="links"><a class="lnk" href="https://manisonmenu.vercel.app/" target="_blank" rel="noopener noreferrer">Visit site ↗</a></div></div>
+    </article>
+    <article class="card reveal" data-c="web ai">
+      <button type="button" class="thumb zoom" data-title="E-Jambyl: Aulieata Smart AI Ecosystem" aria-label="Enlarge image"><img src="works/e-jambyl.jpg" alt="E-Jambyl: Aulieata Smart AI Ecosystem" loading="lazy"></button>
+      <div class="body"><a class="tag" href="https://aulieata-smart-ai.vercel.app/" target="_blank" rel="noopener noreferrer">Web · AI ↗</a><h3>E-Jambyl: Aulieata Smart AI Ecosystem</h3><p>Intelligent web platform for Zhambyl Oblast that brings regional data and services together: smart search over a knowledge base, e-Jambyl services, the Land Code of Kazakhstan, social protection, and an interactive GIS map of Taraz with cadastral zones and infrastructure. Includes request history, bookmarks, an admin panel, and a light and dark theme.</p><div class="links"><a class="lnk" href="https://aulieata-smart-ai.vercel.app/" target="_blank" rel="noopener noreferrer">Visit site ↗</a></div></div>
+    </article>
+    <article class="card reveal" data-c="ai">
+      <button type="button" class="thumb zoom" data-title="Kolesa.kz Fraud Detector" aria-label="Enlarge image"><img src="works/kolesa-scam-detector.jpg" alt="Kolesa.kz Fraud Detector" loading="lazy"></button>
+      <div class="body"><span class="tag">AI / ML</span><h3>Kolesa.kz Fraud Detector</h3><p>Automated system for detecting fraudulent listings on the Kolesa.kz platform using machine learning. Listings are collected with Selenium, analyzed for price anomalies and scam keywords, and classified by a Logistic Regression text model (scikit-learn). Users check a listing through a Telegram bot by sending a link or text and receive an instant safety verdict.</p></div>
+    </article>
+    <article class="card reveal" data-c="writing">
+      <button type="button" class="thumb zoom fit" data-title="How Modern Neural Networks Are Built: The Path from Gradients to Trillion-Parameter Models" aria-label="Enlarge image"><img src="works/neural-networks-article.jpg" alt="How Modern Neural Networks Are Built: The Path from Gradients to Trillion-Parameter Models" loading="lazy"></button>
+      <div class="body"><a class="tag" href="https://bilimger.kz/how-modern-neural-networks-are-built-the-path-from-gradients-to-trillion/" target="_blank" rel="noopener noreferrer">Writing ↗</a><h3>How Modern Neural Networks Are Built: The Path from Gradients to Trillion-Parameter Models</h3><p>Technical article explaining how modern neural networks work, from gradients up to trillion-parameter models, illustrated with self-attention visualizations such as the attention matrix for ambiguous pronoun resolution. Published on Bilimger.</p><div class="links"><a class="lnk" href="https://bilimger.kz/how-modern-neural-networks-are-built-the-path-from-gradients-to-trillion/" target="_blank" rel="noopener noreferrer">Read article ↗</a></div></div>
+    </article>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact reveal">
+    <h2>get in <em>touch</em></h2>
+    <form id="form">
+      <input type="text" placeholder="Your name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea rows="5" placeholder="Your message" required></textarea>
+      <button class="cta send" type="submit">Send message</button>
+    </form>
+  </div>
+</section>
+<footer>© 2026 · All rights reserved</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Certificate viewer"><button class="x" aria-label="Close">×</button><button class="nav prev" aria-label="Previous">‹</button><img alt=""><div class="cap"></div><button class="nav next" aria-label="Next">›</button></div>
+<script src="script.js"></script>
+</body>
+</html>
